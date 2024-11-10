@@ -1,3 +1,4 @@
+CREATE VIEW view_actor_information AS
 SELECT 
     a.actor_id AS id_actor, 
     CONCAT(a.first_name, ' ', a.last_name) AS actor, 
